@@ -48,7 +48,7 @@
             } else {
                 $this->session->set_flashdata('error', "No se guardó la información.");
             }
-            redirect("carreras/insertar");
+            redirect("Carreras_controller/insertar");
         }
 
         public function update()
@@ -64,7 +64,7 @@
             } catch (Exception $e) {
                 $this->session->set_flashdata('error', "No se guardó la información.");
             } finally {
-                redirect("carreras/modificar/" . $data["idcarrera"]);
+                redirect("Carreras_controller/modificar/" . $data["idcarrera"]);
             }
         }
 
@@ -77,7 +77,7 @@
             } else {
                 $this->session->set_flashdata('error', "No se pudo borrar el registro.");
             }
-            redirect("carreras");
+            redirect("Carreras_controller");
         }
 
         public function modificar($id)
