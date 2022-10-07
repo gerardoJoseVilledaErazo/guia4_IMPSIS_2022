@@ -33,3 +33,7 @@
       </ul>
     </div>
   </nav>
+    <h1> &emsp;  Guía de Implantación 05 - VALIDACION DE FORMULARIOS</h1>
+    &emsp;<strong>  Alumno: </strong> <p> &emsp;Gerardo José Villeda Erazo</p> <br>
+    &emsp;<strong>  Código: </strong> <p> &emsp;VE16-I04-001</p> <br>
+    &emsp;<strong>  Materia: </strong> <P> &emsp;Implantación de Sistemas</P>  <br>
